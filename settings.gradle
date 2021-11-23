@@ -1,0 +1,17 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "MyCompose"
+include ':layouts'
+include ':start'
+include ':basic'
+include ':state'
+include ':theme'
+include ':animation'
+include ':navigation'
+include ':side-effect'
